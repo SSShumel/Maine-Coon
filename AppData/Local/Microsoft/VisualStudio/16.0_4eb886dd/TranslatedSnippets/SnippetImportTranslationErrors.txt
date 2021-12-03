@@ -1,0 +1,2 @@
+14.10.2020 17:51:20: Exception Encountered: Source = c:\program files (x86)\microsoft visual studio\2019\community\common7\ide\commonextensions\microsoft\textmate\Starterkit\Extensions\python\snippets ; Message = Source file extension not supported for translation
+

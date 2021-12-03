@@ -1,0 +1,456 @@
+﻿2021-11-02 11:03:17.019 - ShareX starting.
+2021-11-02 11:03:17.030 - Version: 13.6.1
+2021-11-02 11:03:17.030 - Build: Steam
+2021-11-02 11:03:17.030 - Command line: "O:\Program Files (x86)\Steam\steamapps\common\ShareX\ShareX\ShareX.exe"
+2021-11-02 11:03:17.030 - Personal path: C:\Users\U S E R\Documents\ShareX
+2021-11-02 11:03:17.031 - Operating system: Windows 10 Home (64-bit)
+2021-11-02 11:03:17.032 - Running as elevated process: False
+2021-11-02 11:03:17.071 - ApplicationConfig load started: C:\Users\U S E R\Documents\ShareX\ApplicationConfig.json
+2021-11-02 11:03:17.650 - ApplicationConfig load finished: C:\Users\U S E R\Documents\ShareX\ApplicationConfig.json
+2021-11-02 11:03:17.657 - UploadersConfig load started: C:\Users\U S E R\Documents\ShareX\UploadersConfig.json
+2021-11-02 11:03:17.670 - MainForm init started.
+2021-11-02 11:03:17.932 - UploadersConfig load finished: C:\Users\U S E R\Documents\ShareX\UploadersConfig.json
+2021-11-02 11:03:17.936 - HotkeysConfig load started: C:\Users\U S E R\Documents\ShareX\HotkeysConfig.json
+2021-11-02 11:03:18.137 - HotkeysConfig load finished: C:\Users\U S E R\Documents\ShareX\HotkeysConfig.json
+2021-11-02 11:03:18.541 - MainForm init finished.
+2021-11-02 11:03:19.217 - Startup time: 2258 ms
+2021-11-02 11:03:19.288 - Hotkey registered: Hotkey: Ctrl + Print Screen, Description: Захват области, Job: RectangleRegion
+2021-11-02 11:03:19.288 - Hotkey registered: Hotkey: Print Screen, Description: Захват всего экрана, Job: PrintScreen
+2021-11-02 11:03:19.288 - Hotkey registered: Hotkey: Alt + Print Screen, Description: Захват активного окна, Job: ActiveWindow
+2021-11-02 11:03:19.288 - Hotkey registered: Hotkey: Shift + Print Screen, Description: Начать/Остановить запись области экрана, Job: ScreenRecorder
+2021-11-02 11:03:19.288 - Hotkey registered: Hotkey: Ctrl + Shift + Print Screen, Description: Начать/Остановить запись области экрана (GIF), Job: ScreenRecorderGIF
+2021-11-02 11:03:19.290 - HotkeyManager started.
+2021-11-02 11:03:19.292 - WatchFolderManager started.
+2021-11-02 11:04:58.884 - Hotkey triggered. Hotkey: Ctrl + Print Screen, Description: Захват области, Job: RectangleRegion
+2021-11-02 11:04:58.889 - Executing: Захват области
+2021-11-02 11:05:02.098 - Task in queue. Job: Job, Type: Image, Host: Imgur
+2021-11-02 11:05:02.160 - Task status: Preparing
+2021-11-02 11:05:02.312 - Image copied to clipboard.
+2021-11-02 11:05:02.408 - Image saved to file: C:\Users\U S E R\Documents\ShareX\Screenshots\2021-11\opera_Hq5ybcGwbO.png
+2021-11-02 11:05:02.439 - Upload started. Filename: opera_Hq5ybcGwbO.png, Filepath: C:\Users\U S E R\Documents\ShareX\Screenshots\2021-11\opera_Hq5ybcGwbO.png
+2021-11-02 11:05:10.770 - Upload completed. URL: https://i.imgur.com/wV9qwGE.png, Duration: 8325 ms
+2021-11-02 11:05:10.792 - Task completed. Filename: opera_Hq5ybcGwbO.png, Duration: 8628 ms
+2021-11-02 11:34:06.325 - ApplicationConfig save started: C:\Users\U S E R\Documents\ShareX\ApplicationConfig.json
+2021-11-02 11:34:06.325 - HotkeysConfig save started: C:\Users\U S E R\Documents\ShareX\HotkeysConfig.json
+2021-11-02 11:34:06.325 - UploadersConfig save started: C:\Users\U S E R\Documents\ShareX\UploadersConfig.json
+2021-11-02 11:34:06.597 - UploadersConfig save successful: C:\Users\U S E R\Documents\ShareX\UploadersConfig.json
+2021-11-02 11:34:06.686 - HotkeysConfig save successful: C:\Users\U S E R\Documents\ShareX\HotkeysConfig.json
+2021-11-02 11:34:06.751 - ApplicationConfig save successful: C:\Users\U S E R\Documents\ShareX\ApplicationConfig.json
+2021-11-03 09:29:14.064 - Hotkey triggered. Hotkey: Print Screen, Description: Захват всего экрана, Job: PrintScreen
+2021-11-03 09:29:14.071 - Executing: Захват всего экрана
+2021-11-03 09:29:14.673 - Task in queue. Job: Job, Type: Image, Host: Imgur
+2021-11-03 09:29:15.222 - Task status: Preparing
+2021-11-03 09:29:15.515 - Image copied to clipboard.
+2021-11-03 09:29:16.219 - Image saved to file: C:\Users\U S E R\Documents\ShareX\Screenshots\2021-11\opera_V2R26k9Vw3.png
+2021-11-03 09:29:16.252 - Upload started. Filename: opera_V2R26k9Vw3.png, Filepath: C:\Users\U S E R\Documents\ShareX\Screenshots\2021-11\opera_V2R26k9Vw3.png
+2021-11-03 09:29:17.399 - Error:
+Error message:
+Невозможно разрешить удаленное имя: 'api.imgur.com'
+
+Request URL:
+https://api.imgur.com/3/upload
+
+Stack trace:
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в ShareX.UploadersLib.Uploader.SendRequestFile(String url, Stream data, String fileName, String fileFormName, Dictionary`2 args, NameValueCollection headers, CookieCollection cookies, HttpMethod method, String contentType, String relatedData)
+2021-11-03 09:29:17.401 - Upload failed. Retrying upload.
+2021-11-03 09:29:18.405 - Error:
+Error message:
+Невозможно разрешить удаленное имя: 'api.imgur.com'
+
+Request URL:
+https://api.imgur.com/3/upload
+
+Stack trace:
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в ShareX.UploadersLib.Uploader.SendRequestFile(String url, Stream data, String fileName, String fileFormName, Dictionary`2 args, NameValueCollection headers, CookieCollection cookies, HttpMethod method, String contentType, String relatedData)
+2021-11-03 09:29:18.421 - Task failed. Filename: opera_V2R26k9Vw3.png, Errors:
+Error message:
+Невозможно разрешить удаленное имя: 'api.imgur.com'
+
+Request URL:
+https://api.imgur.com/3/upload
+
+Stack trace:
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в ShareX.UploadersLib.Uploader.SendRequestFile(String url, Stream data, String fileName, String fileFormName, Dictionary`2 args, NameValueCollection headers, CookieCollection cookies, HttpMethod method, String contentType, String relatedData)
+2021-11-03 09:33:05.696 - Hotkey triggered. Hotkey: Ctrl + Print Screen, Description: Захват области, Job: RectangleRegion
+2021-11-03 09:33:05.696 - Executing: Захват области
+2021-11-03 09:33:09.092 - Task in queue. Job: Job, Type: Image, Host: Imgur
+2021-11-03 09:33:09.110 - Task status: Preparing
+2021-11-03 09:33:09.219 - Image copied to clipboard.
+2021-11-03 09:33:09.349 - Image saved to file: C:\Users\U S E R\Documents\ShareX\Screenshots\2021-11\opera_jjTDt6IJH0.png
+2021-11-03 09:33:09.373 - Upload started. Filename: opera_jjTDt6IJH0.png, Filepath: C:\Users\U S E R\Documents\ShareX\Screenshots\2021-11\opera_jjTDt6IJH0.png
+2021-11-03 09:33:13.825 - Upload completed. URL: https://i.imgur.com/lYPqGRh.png, Duration: 4452 ms
+2021-11-03 09:33:13.842 - Task completed. Filename: opera_jjTDt6IJH0.png, Duration: 4732 ms
+2021-11-05 10:29:33.267 - Hotkey triggered. Hotkey: Ctrl + Print Screen, Description: Захват области, Job: RectangleRegion
+2021-11-05 10:29:33.275 - Executing: Захват области
+2021-11-05 10:29:43.805 - Task in queue. Job: Job, Type: Image, Host: Imgur
+2021-11-05 10:29:43.864 - Task status: Preparing
+2021-11-05 10:29:43.923 - Image copied to clipboard.
+2021-11-05 10:29:43.945 - Image saved to file: C:\Users\U S E R\Documents\ShareX\Screenshots\2021-11\opera_DADHxokgzU.png
+2021-11-05 10:29:43.965 - Upload started. Filename: opera_DADHxokgzU.png, Filepath: C:\Users\U S E R\Documents\ShareX\Screenshots\2021-11\opera_DADHxokgzU.png
+2021-11-05 10:29:43.998 - Error:
+Error message:
+Невозможно разрешить удаленное имя: 'api.imgur.com'
+
+Request URL:
+https://api.imgur.com/3/upload
+
+Stack trace:
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в ShareX.UploadersLib.Uploader.SendRequestFile(String url, Stream data, String fileName, String fileFormName, Dictionary`2 args, NameValueCollection headers, CookieCollection cookies, HttpMethod method, String contentType, String relatedData)
+2021-11-05 10:29:43.998 - Upload failed. Retrying upload.
+2021-11-05 10:29:45.013 - Error:
+Error message:
+Невозможно разрешить удаленное имя: 'api.imgur.com'
+
+Request URL:
+https://api.imgur.com/3/upload
+
+Stack trace:
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в ShareX.UploadersLib.Uploader.SendRequestFile(String url, Stream data, String fileName, String fileFormName, Dictionary`2 args, NameValueCollection headers, CookieCollection cookies, HttpMethod method, String contentType, String relatedData)
+2021-11-05 10:29:45.013 - Task failed. Filename: opera_DADHxokgzU.png, Errors:
+Error message:
+Невозможно разрешить удаленное имя: 'api.imgur.com'
+
+Request URL:
+https://api.imgur.com/3/upload
+
+Stack trace:
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в ShareX.UploadersLib.Uploader.SendRequestFile(String url, Stream data, String fileName, String fileFormName, Dictionary`2 args, NameValueCollection headers, CookieCollection cookies, HttpMethod method, String contentType, String relatedData)
+2021-11-05 10:30:29.864 - Hotkey triggered. Hotkey: Ctrl + Print Screen, Description: Захват области, Job: RectangleRegion
+2021-11-05 10:30:29.865 - Executing: Захват области
+2021-11-05 10:30:32.901 - Task in queue. Job: Job, Type: Image, Host: Imgur
+2021-11-05 10:30:32.918 - Task status: Preparing
+2021-11-05 10:30:32.954 - Image copied to clipboard.
+2021-11-05 10:30:32.963 - Image saved to file: C:\Users\U S E R\Documents\ShareX\Screenshots\2021-11\opera_VtYvXRIpIm.png
+2021-11-05 10:30:32.969 - Upload started. Filename: opera_VtYvXRIpIm.png, Filepath: C:\Users\U S E R\Documents\ShareX\Screenshots\2021-11\opera_VtYvXRIpIm.png
+2021-11-05 10:30:35.134 - Upload completed. URL: https://i.imgur.com/dRgpTDV.png, Duration: 2165 ms
+2021-11-05 10:30:35.152 - Task completed. Filename: opera_VtYvXRIpIm.png, Duration: 2235 ms
+2021-11-05 10:30:37.260 - Hotkey triggered. Hotkey: Ctrl + Print Screen, Description: Захват области, Job: RectangleRegion
+2021-11-05 10:30:37.260 - Executing: Захват области
+2021-11-05 10:30:47.853 - Task in queue. Job: Job, Type: Image, Host: Imgur
+2021-11-05 10:30:47.866 - Task status: Preparing
+2021-11-05 10:30:47.901 - Image copied to clipboard.
+2021-11-05 10:30:47.917 - Image saved to file: C:\Users\U S E R\Documents\ShareX\Screenshots\2021-11\opera_dprgIQzcwG.png
+2021-11-05 10:30:47.947 - Upload started. Filename: opera_dprgIQzcwG.png, Filepath: C:\Users\U S E R\Documents\ShareX\Screenshots\2021-11\opera_dprgIQzcwG.png
+2021-11-05 10:30:50.521 - Upload completed. URL: https://i.imgur.com/q2N9dLO.png, Duration: 2578 ms
+2021-11-05 10:30:50.538 - Task completed. Filename: opera_dprgIQzcwG.png, Duration: 2672 ms
+2021-11-05 10:32:22.199 - Hotkey triggered. Hotkey: Ctrl + Print Screen, Description: Захват области, Job: RectangleRegion
+2021-11-05 10:32:22.199 - Executing: Захват области
+2021-11-05 10:32:26.497 - Hotkey triggered. Hotkey: Ctrl + Print Screen, Description: Захват области, Job: RectangleRegion
+2021-11-05 10:32:26.497 - Executing: Захват области
+2021-11-05 10:32:34.193 - Task in queue. Job: Job, Type: Image, Host: Imgur
+2021-11-05 10:32:34.217 - Task status: Preparing
+2021-11-05 10:32:34.254 - Image copied to clipboard.
+2021-11-05 10:32:34.263 - Image saved to file: C:\Users\U S E R\Documents\ShareX\Screenshots\2021-11\opera_FKb35z0gSJ.png
+2021-11-05 10:32:34.287 - Upload started. Filename: opera_FKb35z0gSJ.png, Filepath: C:\Users\U S E R\Documents\ShareX\Screenshots\2021-11\opera_FKb35z0gSJ.png
+2021-11-05 10:32:37.668 - Upload completed. URL: https://i.imgur.com/DtSRqld.png, Duration: 3392 ms
+2021-11-05 10:32:37.688 - Task completed. Filename: opera_FKb35z0gSJ.png, Duration: 3472 ms
+2021-11-08 12:18:52.611 - ShareX closing.
+2021-11-08 12:18:52.695 - ApplicationConfig save started: C:\Users\U S E R\Documents\ShareX\ApplicationConfig.json
+2021-11-08 12:18:53.353 - ApplicationConfig save successful: C:\Users\U S E R\Documents\ShareX\ApplicationConfig.json
+2021-11-08 12:18:53.353 - UploadersConfig save started: C:\Users\U S E R\Documents\ShareX\UploadersConfig.json
+2021-11-08 12:18:53.484 - UploadersConfig save successful: C:\Users\U S E R\Documents\ShareX\UploadersConfig.json
+2021-11-08 12:18:53.484 - HotkeysConfig save started: C:\Users\U S E R\Documents\ShareX\HotkeysConfig.json
+2021-11-08 12:18:53.684 - HotkeysConfig save successful: C:\Users\U S E R\Documents\ShareX\HotkeysConfig.json
+2021-11-08 12:18:53.684 - ShareX closed.
+2021-11-10 09:44:33.178 - ShareX starting.
+2021-11-10 09:44:33.217 - Version: 13.6.1
+2021-11-10 09:44:33.218 - Build: Steam
+2021-11-10 09:44:33.218 - Command line: "O:\Program Files (x86)\Steam\steamapps\common\ShareX\ShareX\ShareX.exe"
+2021-11-10 09:44:33.218 - Personal path: C:\Users\U S E R\Documents\ShareX
+2021-11-10 09:44:33.224 - Operating system: Windows 10 Home (64-bit)
+2021-11-10 09:44:33.229 - Running as elevated process: False
+2021-11-10 09:44:33.325 - ApplicationConfig load started: C:\Users\U S E R\Documents\ShareX\ApplicationConfig.json
+2021-11-10 09:44:34.481 - ApplicationConfig load finished: C:\Users\U S E R\Documents\ShareX\ApplicationConfig.json
+2021-11-10 09:44:34.487 - UploadersConfig load started: C:\Users\U S E R\Documents\ShareX\UploadersConfig.json
+2021-11-10 09:44:34.497 - MainForm init started.
+2021-11-10 09:44:34.780 - UploadersConfig load finished: C:\Users\U S E R\Documents\ShareX\UploadersConfig.json
+2021-11-10 09:44:34.788 - HotkeysConfig load started: C:\Users\U S E R\Documents\ShareX\HotkeysConfig.json
+2021-11-10 09:44:35.032 - HotkeysConfig load finished: C:\Users\U S E R\Documents\ShareX\HotkeysConfig.json
+2021-11-10 09:44:35.415 - MainForm init finished.
+2021-11-10 09:44:36.333 - Startup time: 3280 ms
+2021-11-10 09:44:36.447 - Hotkey registered: Hotkey: Ctrl + Print Screen, Description: Захват области, Job: RectangleRegion
+2021-11-10 09:44:36.447 - Hotkey registered: Hotkey: Print Screen, Description: Захват всего экрана, Job: PrintScreen
+2021-11-10 09:44:36.447 - Hotkey registered: Hotkey: Alt + Print Screen, Description: Захват активного окна, Job: ActiveWindow
+2021-11-10 09:44:36.447 - Hotkey registered: Hotkey: Shift + Print Screen, Description: Начать/Остановить запись области экрана, Job: ScreenRecorder
+2021-11-10 09:44:36.447 - Hotkey registered: Hotkey: Ctrl + Shift + Print Screen, Description: Начать/Остановить запись области экрана (GIF), Job: ScreenRecorderGIF
+2021-11-10 09:44:36.453 - HotkeyManager started.
+2021-11-10 09:44:36.456 - WatchFolderManager started.
+2021-11-10 09:44:48.277 - Hotkey triggered. Hotkey: Ctrl + Print Screen, Description: Захват области, Job: RectangleRegion
+2021-11-10 09:44:48.283 - Executing: Захват области
+2021-11-10 09:45:15.392 - Task in queue. Job: Job, Type: Image, Host: Imgur
+2021-11-10 09:45:15.519 - Task status: Preparing
+2021-11-10 09:45:15.581 - Image copied to clipboard.
+2021-11-10 09:45:15.613 - Image saved to file: C:\Users\U S E R\Documents\ShareX\Screenshots\2021-11\AFPM70_aoplZqgdC7.png
+2021-11-10 09:45:15.634 - Upload started. Filename: AFPM70_aoplZqgdC7.png, Filepath: C:\Users\U S E R\Documents\ShareX\Screenshots\2021-11\AFPM70_aoplZqgdC7.png
+2021-11-10 09:45:27.116 - Error:
+Error message:
+Невозможно разрешить удаленное имя: 'api.imgur.com'
+
+Request URL:
+https://api.imgur.com/3/upload
+
+Stack trace:
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в ShareX.UploadersLib.Uploader.SendRequestFile(String url, Stream data, String fileName, String fileFormName, Dictionary`2 args, NameValueCollection headers, CookieCollection cookies, HttpMethod method, String contentType, String relatedData)
+2021-11-10 09:45:27.117 - Upload failed. Retrying upload.
+2021-11-10 09:45:39.457 - Error:
+Error message:
+Невозможно разрешить удаленное имя: 'api.imgur.com'
+
+Request URL:
+https://api.imgur.com/3/upload
+
+Stack trace:
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в ShareX.UploadersLib.Uploader.SendRequestFile(String url, Stream data, String fileName, String fileFormName, Dictionary`2 args, NameValueCollection headers, CookieCollection cookies, HttpMethod method, String contentType, String relatedData)
+2021-11-10 09:45:39.468 - Task failed. Filename: AFPM70_aoplZqgdC7.png, Errors:
+Error message:
+Невозможно разрешить удаленное имя: 'api.imgur.com'
+
+Request URL:
+https://api.imgur.com/3/upload
+
+Stack trace:
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в ShareX.UploadersLib.Uploader.SendRequestFile(String url, Stream data, String fileName, String fileFormName, Dictionary`2 args, NameValueCollection headers, CookieCollection cookies, HttpMethod method, String contentType, String relatedData)
+2021-11-10 10:55:52.202 - Hotkey triggered. Hotkey: Ctrl + Print Screen, Description: Захват области, Job: RectangleRegion
+2021-11-10 10:55:52.203 - Executing: Захват области
+2021-11-10 10:55:59.781 - Task in queue. Job: Job, Type: Image, Host: Imgur
+2021-11-10 10:55:59.852 - Task status: Preparing
+2021-11-10 10:55:59.925 - Image copied to clipboard.
+2021-11-10 10:55:59.969 - Image saved to file: C:\Users\U S E R\Documents\ShareX\Screenshots\2021-11\AFPM70_kgOyePXTVH.png
+2021-11-10 10:55:59.997 - Upload started. Filename: AFPM70_kgOyePXTVH.png, Filepath: C:\Users\U S E R\Documents\ShareX\Screenshots\2021-11\AFPM70_kgOyePXTVH.png
+2021-11-10 10:56:02.643 - Hotkey triggered. Hotkey: Ctrl + Print Screen, Description: Захват области, Job: RectangleRegion
+2021-11-10 10:56:02.644 - Executing: Захват области
+2021-11-10 10:56:02.810 - Upload completed. URL: https://i.imgur.com/13W32eT.png, Duration: 2771 ms
+2021-11-10 10:56:02.818 - Task completed. Filename: AFPM70_kgOyePXTVH.png, Duration: 2963 ms
+2021-11-10 10:56:04.460 - Task in queue. Job: Job, Type: Image, Host: Imgur
+2021-11-10 10:56:04.514 - Task status: Preparing
+2021-11-10 10:56:04.570 - Image copied to clipboard.
+2021-11-10 10:56:04.603 - Image saved to file: C:\Users\U S E R\Documents\ShareX\Screenshots\2021-11\AFPM70_XOhtrGS9DU.png
+2021-11-10 10:56:04.637 - Upload started. Filename: AFPM70_XOhtrGS9DU.png, Filepath: C:\Users\U S E R\Documents\ShareX\Screenshots\2021-11\AFPM70_XOhtrGS9DU.png
+2021-11-10 10:56:06.264 - Hotkey triggered. Hotkey: Ctrl + Print Screen, Description: Захват области, Job: RectangleRegion
+2021-11-10 10:56:06.264 - Executing: Захват области
+2021-11-10 10:56:07.750 - Upload completed. URL: https://i.imgur.com/X1jaaGA.png, Duration: 3100 ms
+2021-11-10 10:56:07.753 - Task completed. Filename: AFPM70_XOhtrGS9DU.png, Duration: 3238 ms
+2021-11-10 10:56:15.021 - Task in queue. Job: Job, Type: Image, Host: Imgur
+2021-11-10 10:56:15.072 - Task status: Preparing
+2021-11-10 10:56:15.113 - Image copied to clipboard.
+2021-11-10 10:56:15.135 - Image saved to file: C:\Users\U S E R\Documents\ShareX\Screenshots\2021-11\AFPM70_oa7x1Gk3Gc.png
+2021-11-10 10:56:15.162 - Upload started. Filename: AFPM70_oa7x1Gk3Gc.png, Filepath: C:\Users\U S E R\Documents\ShareX\Screenshots\2021-11\AFPM70_oa7x1Gk3Gc.png
+2021-11-10 10:56:17.770 - Upload completed. URL: https://i.imgur.com/5PwPX80.png, Duration: 2610 ms
+2021-11-10 10:56:17.788 - Task completed. Filename: AFPM70_oa7x1Gk3Gc.png, Duration: 2715 ms
+2021-11-10 10:57:03.252 - Hotkey triggered. Hotkey: Ctrl + Print Screen, Description: Захват области, Job: RectangleRegion
+2021-11-10 10:57:03.253 - Executing: Захват области
+2021-11-10 10:57:16.062 - Task in queue. Job: Job, Type: Image, Host: Imgur
+2021-11-10 10:57:16.114 - Task status: Preparing
+2021-11-10 10:57:16.156 - Image copied to clipboard.
+2021-11-10 10:57:16.175 - Image saved to file: C:\Users\U S E R\Documents\ShareX\Screenshots\2021-11\AFPM70_CmGNGUqe01.png
+2021-11-10 10:57:16.198 - Upload started. Filename: AFPM70_CmGNGUqe01.png, Filepath: C:\Users\U S E R\Documents\ShareX\Screenshots\2021-11\AFPM70_CmGNGUqe01.png
+2021-11-10 10:57:18.904 - Upload completed. URL: https://i.imgur.com/4lt1VW6.png, Duration: 2707 ms
+2021-11-10 10:57:18.928 - Task completed. Filename: AFPM70_CmGNGUqe01.png, Duration: 2814 ms
+2021-11-10 10:58:06.320 - Hotkey triggered. Hotkey: Ctrl + Print Screen, Description: Захват области, Job: RectangleRegion
+2021-11-10 10:58:06.321 - Executing: Захват области
+2021-11-10 10:58:19.094 - Task in queue. Job: Job, Type: Image, Host: Imgur
+2021-11-10 10:58:19.152 - Task status: Preparing
+2021-11-10 10:58:19.192 - Image copied to clipboard.
+2021-11-10 10:58:19.210 - Image saved to file: C:\Users\U S E R\Documents\ShareX\Screenshots\2021-11\AFPM70_o63ZzjUfev.png
+2021-11-10 10:58:19.240 - Upload started. Filename: AFPM70_o63ZzjUfev.png, Filepath: C:\Users\U S E R\Documents\ShareX\Screenshots\2021-11\AFPM70_o63ZzjUfev.png
+2021-11-10 10:58:23.173 - Upload completed. URL: https://i.imgur.com/QeCxU4J.png, Duration: 3936 ms
+2021-11-10 10:58:23.192 - Task completed. Filename: AFPM70_o63ZzjUfev.png, Duration: 4042 ms
+2021-11-11 07:58:59.479 - UploadersConfig save started: C:\Users\U S E R\Documents\ShareX\UploadersConfig.json
+2021-11-11 07:58:59.479 - ApplicationConfig save started: C:\Users\U S E R\Documents\ShareX\ApplicationConfig.json
+2021-11-11 07:58:59.479 - HotkeysConfig save started: C:\Users\U S E R\Documents\ShareX\HotkeysConfig.json
+2021-11-11 07:58:59.953 - UploadersConfig save successful: C:\Users\U S E R\Documents\ShareX\UploadersConfig.json
+2021-11-11 07:59:00.134 - HotkeysConfig save successful: C:\Users\U S E R\Documents\ShareX\HotkeysConfig.json
+2021-11-11 07:59:00.251 - ApplicationConfig save successful: C:\Users\U S E R\Documents\ShareX\ApplicationConfig.json
+2021-11-11 08:51:21.856 - Hotkey triggered. Hotkey: Ctrl + Print Screen, Description: Захват области, Job: RectangleRegion
+2021-11-11 08:51:21.856 - Executing: Захват области
+2021-11-11 08:51:25.697 - Hotkey triggered. Hotkey: Ctrl + Print Screen, Description: Захват области, Job: RectangleRegion
+2021-11-11 08:51:25.697 - Executing: Захват области
+2021-11-11 08:51:39.608 - Task in queue. Job: Job, Type: Image, Host: Imgur
+2021-11-11 08:51:39.636 - Task status: Preparing
+2021-11-11 08:51:39.718 - Image copied to clipboard.
+2021-11-11 08:51:39.750 - Image saved to file: C:\Users\U S E R\Documents\ShareX\Screenshots\2021-11\AFPM70_gS7Ug3N7HZ.png
+2021-11-11 08:51:39.766 - Upload started. Filename: AFPM70_gS7Ug3N7HZ.png, Filepath: C:\Users\U S E R\Documents\ShareX\Screenshots\2021-11\AFPM70_gS7Ug3N7HZ.png
+2021-11-11 08:51:44.792 - Upload completed. URL: https://i.imgur.com/LLQLb4B.png, Duration: 5022 ms
+2021-11-11 08:51:44.816 - Task completed. Filename: AFPM70_gS7Ug3N7HZ.png, Duration: 5180 ms
+2021-11-11 08:53:18.008 - Hotkey triggered. Hotkey: Ctrl + Print Screen, Description: Захват области, Job: RectangleRegion
+2021-11-11 08:53:18.008 - Executing: Захват области
+2021-11-11 08:53:36.732 - Task in queue. Job: Job, Type: Image, Host: Imgur
+2021-11-11 08:53:36.756 - Task status: Preparing
+2021-11-11 08:53:36.804 - Image copied to clipboard.
+2021-11-11 08:53:36.836 - Image saved to file: C:\Users\U S E R\Documents\ShareX\Screenshots\2021-11\AFPM70_5iB7rS7rv8.png
+2021-11-11 08:53:36.856 - Upload started. Filename: AFPM70_5iB7rS7rv8.png, Filepath: C:\Users\U S E R\Documents\ShareX\Screenshots\2021-11\AFPM70_5iB7rS7rv8.png
+2021-11-11 08:53:45.838 - Upload completed. URL: https://i.imgur.com/RGEDt6q.png, Duration: 8983 ms
+2021-11-11 08:53:45.866 - Task completed. Filename: AFPM70_5iB7rS7rv8.png, Duration: 9110 ms
+2021-11-11 08:54:07.324 - Hotkey triggered. Hotkey: Ctrl + Print Screen, Description: Захват области, Job: RectangleRegion
+2021-11-11 08:54:07.324 - Executing: Захват области
+2021-11-11 08:54:30.483 - Task in queue. Job: Job, Type: Image, Host: Imgur
+2021-11-11 08:54:30.503 - Task status: Preparing
+2021-11-11 08:54:30.555 - Image copied to clipboard.
+2021-11-11 08:54:30.591 - Image saved to file: C:\Users\U S E R\Documents\ShareX\Screenshots\2021-11\AFPM70_a6sBIM8ibU.png
+2021-11-11 08:54:30.611 - Upload started. Filename: AFPM70_a6sBIM8ibU.png, Filepath: C:\Users\U S E R\Documents\ShareX\Screenshots\2021-11\AFPM70_a6sBIM8ibU.png
+2021-11-11 08:54:32.909 - Upload completed. URL: https://i.imgur.com/Pw7LszZ.png, Duration: 2299 ms
+2021-11-11 08:54:32.933 - Task completed. Filename: AFPM70_a6sBIM8ibU.png, Duration: 2433 ms
+2021-11-11 08:54:59.411 - Hotkey triggered. Hotkey: Ctrl + Print Screen, Description: Захват области, Job: RectangleRegion
+2021-11-11 08:54:59.411 - Executing: Захват области
+2021-11-11 08:55:14.949 - Task in queue. Job: Job, Type: Image, Host: Imgur
+2021-11-11 08:55:14.973 - Task status: Preparing
+2021-11-11 08:55:15.025 - Image copied to clipboard.
+2021-11-11 08:55:15.058 - Image saved to file: C:\Users\U S E R\Documents\ShareX\Screenshots\2021-11\AFPM70_Yq7yLWLt2E.png
+2021-11-11 08:55:15.074 - Upload started. Filename: AFPM70_Yq7yLWLt2E.png, Filepath: C:\Users\U S E R\Documents\ShareX\Screenshots\2021-11\AFPM70_Yq7yLWLt2E.png
+2021-11-11 08:55:19.710 - Upload completed. URL: https://i.imgur.com/9szIXpR.png, Duration: 4635 ms
+2021-11-11 08:55:19.738 - Task completed. Filename: AFPM70_Yq7yLWLt2E.png, Duration: 4765 ms
+2021-11-11 08:55:20.642 - URL opened: https://i.imgur.com/9szIXpR.png
+2021-11-11 08:55:35.562 - Hotkey triggered. Hotkey: Ctrl + Print Screen, Description: Захват области, Job: RectangleRegion
+2021-11-11 08:55:35.562 - Executing: Захват области
+2021-11-11 08:55:50.275 - Task in queue. Job: Job, Type: Image, Host: Imgur
+2021-11-11 08:55:50.307 - Task status: Preparing
+2021-11-11 08:55:50.375 - Image copied to clipboard.
+2021-11-11 08:55:50.423 - Image saved to file: C:\Users\U S E R\Documents\ShareX\Screenshots\2021-11\AFPM70_bGBGMnA13m.png
+2021-11-11 08:55:50.455 - Upload started. Filename: AFPM70_bGBGMnA13m.png, Filepath: C:\Users\U S E R\Documents\ShareX\Screenshots\2021-11\AFPM70_bGBGMnA13m.png
+2021-11-11 08:55:52.716 - Upload completed. URL: https://i.imgur.com/dok6P7i.png, Duration: 2258 ms
+2021-11-11 08:55:52.740 - Task completed. Filename: AFPM70_bGBGMnA13m.png, Duration: 2432 ms
+2021-11-15 15:28:14.858 - ShareX closing.
+2021-11-15 15:28:14.913 - ApplicationConfig save started: C:\Users\U S E R\Documents\ShareX\ApplicationConfig.json
+2021-11-15 15:28:15.507 - ApplicationConfig save successful: C:\Users\U S E R\Documents\ShareX\ApplicationConfig.json
+2021-11-15 15:28:15.507 - UploadersConfig save started: C:\Users\U S E R\Documents\ShareX\UploadersConfig.json
+2021-11-15 15:28:15.632 - UploadersConfig save successful: C:\Users\U S E R\Documents\ShareX\UploadersConfig.json
+2021-11-15 15:28:15.632 - HotkeysConfig save started: C:\Users\U S E R\Documents\ShareX\HotkeysConfig.json
+2021-11-15 15:28:15.929 - HotkeysConfig save successful: C:\Users\U S E R\Documents\ShareX\HotkeysConfig.json
+2021-11-15 15:28:15.929 - ShareX closed.
+2021-11-18 10:08:38.927 - ShareX starting.
+2021-11-18 10:08:38.945 - Version: 13.6.1
+2021-11-18 10:08:38.945 - Build: Steam
+2021-11-18 10:08:38.946 - Command line: "O:\Program Files (x86)\Steam\steamapps\common\ShareX\ShareX\ShareX.exe"
+2021-11-18 10:08:38.946 - Personal path: C:\Users\U S E R\Documents\ShareX
+2021-11-18 10:08:38.947 - Operating system: Windows 10 Home (64-bit)
+2021-11-18 10:08:38.950 - Running as elevated process: False
+2021-11-18 10:08:39.018 - ApplicationConfig load started: C:\Users\U S E R\Documents\ShareX\ApplicationConfig.json
+2021-11-18 10:08:39.858 - ApplicationConfig load finished: C:\Users\U S E R\Documents\ShareX\ApplicationConfig.json
+2021-11-18 10:08:39.864 - UploadersConfig load started: C:\Users\U S E R\Documents\ShareX\UploadersConfig.json
+2021-11-18 10:08:39.871 - MainForm init started.
+2021-11-18 10:08:40.031 - UploadersConfig load finished: C:\Users\U S E R\Documents\ShareX\UploadersConfig.json
+2021-11-18 10:08:40.036 - HotkeysConfig load started: C:\Users\U S E R\Documents\ShareX\HotkeysConfig.json
+2021-11-18 10:08:40.230 - HotkeysConfig load finished: C:\Users\U S E R\Documents\ShareX\HotkeysConfig.json
+2021-11-18 10:08:40.700 - MainForm init finished.
+2021-11-18 10:08:41.468 - Startup time: 2688 ms
+2021-11-18 10:08:41.644 - Hotkey registered: Hotkey: Ctrl + Print Screen, Description: Захват области, Job: RectangleRegion
+2021-11-18 10:08:41.645 - Hotkey registered: Hotkey: Print Screen, Description: Захват всего экрана, Job: PrintScreen
+2021-11-18 10:08:41.645 - Hotkey registered: Hotkey: Alt + Print Screen, Description: Захват активного окна, Job: ActiveWindow
+2021-11-18 10:08:41.645 - Hotkey registered: Hotkey: Shift + Print Screen, Description: Начать/Остановить запись области экрана, Job: ScreenRecorder
+2021-11-18 10:08:41.645 - Hotkey registered: Hotkey: Ctrl + Shift + Print Screen, Description: Начать/Остановить запись области экрана (GIF), Job: ScreenRecorderGIF
+2021-11-18 10:08:41.648 - HotkeyManager started.
+2021-11-18 10:08:41.649 - WatchFolderManager started.
+2021-11-18 10:08:45.975 - Hotkey triggered. Hotkey: Ctrl + Print Screen, Description: Захват области, Job: RectangleRegion
+2021-11-18 10:08:45.979 - Executing: Захват области
+2021-11-18 10:09:04.597 - Task in queue. Job: Job, Type: Image, Host: Imgur
+2021-11-18 10:09:04.709 - Task status: Preparing
+2021-11-18 10:09:04.770 - Image copied to clipboard.
+2021-11-18 10:09:04.804 - Image saved to file: C:\Users\U S E R\Documents\ShareX\Screenshots\2021-11\AFPM70_t9Vtkp3w3c.png
+2021-11-18 10:09:04.833 - Upload started. Filename: AFPM70_t9Vtkp3w3c.png, Filepath: C:\Users\U S E R\Documents\ShareX\Screenshots\2021-11\AFPM70_t9Vtkp3w3c.png
+2021-11-18 10:09:07.175 - Upload completed. URL: https://i.imgur.com/54G9gZN.png, Duration: 2336 ms
+2021-11-18 10:09:07.200 - Task completed. Filename: AFPM70_t9Vtkp3w3c.png, Duration: 2488 ms
+2021-11-18 10:52:35.587 - Hotkey triggered. Hotkey: Ctrl + Print Screen, Description: Захват области, Job: RectangleRegion
+2021-11-18 10:52:35.588 - Executing: Захват области
+2021-11-18 10:52:49.985 - Task in queue. Job: Job, Type: Image, Host: Imgur
+2021-11-18 10:52:50.006 - Task status: Preparing
+2021-11-18 10:52:50.047 - Image copied to clipboard.
+2021-11-18 10:52:50.070 - Image saved to file: C:\Users\U S E R\Documents\ShareX\Screenshots\2021-11\AFPM70_mg2z7Us6if.png
+2021-11-18 10:52:50.096 - Upload started. Filename: AFPM70_mg2z7Us6if.png, Filepath: C:\Users\U S E R\Documents\ShareX\Screenshots\2021-11\AFPM70_mg2z7Us6if.png
+2021-11-18 10:52:56.384 - Upload completed. URL: https://i.imgur.com/CJAXG9O.png, Duration: 6290 ms
+2021-11-18 10:52:56.401 - Task completed. Filename: AFPM70_mg2z7Us6if.png, Duration: 6395 ms
+2021-11-18 13:29:47.615 - HotkeysConfig save started: C:\Users\U S E R\Documents\ShareX\HotkeysConfig.json
+2021-11-18 13:29:47.615 - ApplicationConfig save started: C:\Users\U S E R\Documents\ShareX\ApplicationConfig.json
+2021-11-18 13:29:47.615 - UploadersConfig save started: C:\Users\U S E R\Documents\ShareX\UploadersConfig.json
+2021-11-18 13:29:47.836 - UploadersConfig save successful: C:\Users\U S E R\Documents\ShareX\UploadersConfig.json
+2021-11-18 13:29:47.922 - HotkeysConfig save successful: C:\Users\U S E R\Documents\ShareX\HotkeysConfig.json
+2021-11-18 13:29:47.980 - ApplicationConfig save successful: C:\Users\U S E R\Documents\ShareX\ApplicationConfig.json
+2021-11-18 13:30:55.911 - ShareX closing.
+2021-11-18 13:30:55.927 - ApplicationConfig save started: C:\Users\U S E R\Documents\ShareX\ApplicationConfig.json
+2021-11-18 13:30:56.262 - ApplicationConfig save successful: C:\Users\U S E R\Documents\ShareX\ApplicationConfig.json
+2021-11-18 13:30:56.262 - UploadersConfig save started: C:\Users\U S E R\Documents\ShareX\UploadersConfig.json
+2021-11-18 13:30:56.362 - UploadersConfig save successful: C:\Users\U S E R\Documents\ShareX\UploadersConfig.json
+2021-11-18 13:30:56.362 - HotkeysConfig save started: C:\Users\U S E R\Documents\ShareX\HotkeysConfig.json
+2021-11-18 13:30:56.563 - HotkeysConfig save successful: C:\Users\U S E R\Documents\ShareX\HotkeysConfig.json
+2021-11-18 13:30:56.563 - ShareX closed.
+2021-11-19 08:42:38.304 - ShareX starting.
+2021-11-19 08:42:38.336 - Version: 13.6.1
+2021-11-19 08:42:38.336 - Build: Steam
+2021-11-19 08:42:38.336 - Command line: "O:\Program Files (x86)\Steam\steamapps\common\ShareX\ShareX\ShareX.exe"
+2021-11-19 08:42:38.336 - Personal path: C:\Users\U S E R\Documents\ShareX
+2021-11-19 08:42:38.336 - Operating system: Windows 10 Home (64-bit)
+2021-11-19 08:42:38.340 - Running as elevated process: False
+2021-11-19 08:42:38.436 - ApplicationConfig load started: C:\Users\U S E R\Documents\ShareX\ApplicationConfig.json
+2021-11-19 08:42:40.415 - ApplicationConfig load finished: C:\Users\U S E R\Documents\ShareX\ApplicationConfig.json
+2021-11-19 08:42:40.427 - UploadersConfig load started: C:\Users\U S E R\Documents\ShareX\UploadersConfig.json
+2021-11-19 08:42:40.439 - MainForm init started.
+2021-11-19 08:42:41.002 - UploadersConfig load finished: C:\Users\U S E R\Documents\ShareX\UploadersConfig.json
+2021-11-19 08:42:41.014 - HotkeysConfig load started: C:\Users\U S E R\Documents\ShareX\HotkeysConfig.json
+2021-11-19 08:42:41.658 - HotkeysConfig load finished: C:\Users\U S E R\Documents\ShareX\HotkeysConfig.json
+2021-11-19 08:42:42.228 - MainForm init finished.
+2021-11-19 08:42:43.166 - Startup time: 5156 ms
+2021-11-19 08:42:43.322 - Hotkey registered: Hotkey: Ctrl + Print Screen, Description: Захват области, Job: RectangleRegion
+2021-11-19 08:42:43.322 - Hotkey registered: Hotkey: Print Screen, Description: Захват всего экрана, Job: PrintScreen
+2021-11-19 08:42:43.322 - Hotkey registered: Hotkey: Alt + Print Screen, Description: Захват активного окна, Job: ActiveWindow
+2021-11-19 08:42:43.322 - Hotkey registered: Hotkey: Shift + Print Screen, Description: Начать/Остановить запись области экрана, Job: ScreenRecorder
+2021-11-19 08:42:43.322 - Hotkey registered: Hotkey: Ctrl + Shift + Print Screen, Description: Начать/Остановить запись области экрана (GIF), Job: ScreenRecorderGIF
+2021-11-19 08:42:43.326 - HotkeyManager started.
+2021-11-19 08:42:43.330 - WatchFolderManager started.
+2021-11-19 08:43:34.951 - Hotkey triggered. Hotkey: Ctrl + Print Screen, Description: Захват области, Job: RectangleRegion
+2021-11-19 08:43:34.963 - Executing: Захват области
+2021-11-19 08:44:08.949 - Task in queue. Job: Job, Type: Image, Host: Imgur
+2021-11-19 08:44:09.146 - Task status: Preparing
+2021-11-19 08:44:09.241 - Image copied to clipboard.
+2021-11-19 08:44:09.296 - Image saved to file: C:\Users\U S E R\Documents\ShareX\Screenshots\2021-11\AFPM70_xIbVof9QBD.png
+2021-11-19 08:44:09.334 - Upload started. Filename: AFPM70_xIbVof9QBD.png, Filepath: C:\Users\U S E R\Documents\ShareX\Screenshots\2021-11\AFPM70_xIbVof9QBD.png
+2021-11-19 08:44:12.319 - Upload completed. URL: https://i.imgur.com/vZyTXnY.png, Duration: 2973 ms
+2021-11-19 08:44:12.387 - Task completed. Filename: AFPM70_xIbVof9QBD.png, Duration: 3232 ms
+2021-11-19 09:50:35.287 - Hotkey triggered. Hotkey: Ctrl + Print Screen, Description: Захват области, Job: RectangleRegion
+2021-11-19 09:50:35.288 - Executing: Захват области
+2021-11-19 09:50:51.617 - Task in queue. Job: Job, Type: Image, Host: Imgur
+2021-11-19 09:50:51.691 - Task status: Preparing
+2021-11-19 09:50:51.748 - Image copied to clipboard.
+2021-11-19 09:50:51.790 - Image saved to file: C:\Users\U S E R\Documents\ShareX\Screenshots\2021-11\AFPM70_D59ZJwpzyo.png
+2021-11-19 09:50:51.817 - Upload started. Filename: AFPM70_D59ZJwpzyo.png, Filepath: C:\Users\U S E R\Documents\ShareX\Screenshots\2021-11\AFPM70_D59ZJwpzyo.png
+2021-11-19 09:50:54.971 - Upload completed. URL: https://i.imgur.com/fvIFMp2.png, Duration: 3155 ms
+2021-11-19 09:50:54.984 - Task completed. Filename: AFPM70_D59ZJwpzyo.png, Duration: 3294 ms
+2021-11-19 10:36:54.360 - Hotkey triggered. Hotkey: Ctrl + Print Screen, Description: Захват области, Job: RectangleRegion
+2021-11-19 10:36:54.360 - Executing: Захват области
+2021-11-19 10:37:17.308 - Task in queue. Job: Job, Type: Image, Host: Imgur
+2021-11-19 10:37:17.363 - Task status: Preparing
+2021-11-19 10:37:17.408 - Image copied to clipboard.
+2021-11-19 10:37:17.436 - Image saved to file: C:\Users\U S E R\Documents\ShareX\Screenshots\2021-11\AFPM70_E50LYGo9Uz.png
+2021-11-19 10:37:17.457 - Upload started. Filename: AFPM70_E50LYGo9Uz.png, Filepath: C:\Users\U S E R\Documents\ShareX\Screenshots\2021-11\AFPM70_E50LYGo9Uz.png
+2021-11-19 10:37:19.671 - Upload completed. URL: https://i.imgur.com/KCoRNOU.png, Duration: 2214 ms
+2021-11-19 10:37:19.685 - Task completed. Filename: AFPM70_E50LYGo9Uz.png, Duration: 2321 ms
+2021-11-19 13:32:39.837 - HotkeysConfig save started: C:\Users\U S E R\Documents\ShareX\HotkeysConfig.json
+2021-11-19 13:32:39.837 - UploadersConfig save started: C:\Users\U S E R\Documents\ShareX\UploadersConfig.json
+2021-11-19 13:32:39.837 - ApplicationConfig save started: C:\Users\U S E R\Documents\ShareX\ApplicationConfig.json
+2021-11-19 13:32:40.114 - UploadersConfig save successful: C:\Users\U S E R\Documents\ShareX\UploadersConfig.json
+2021-11-19 13:32:40.233 - HotkeysConfig save successful: C:\Users\U S E R\Documents\ShareX\HotkeysConfig.json
+2021-11-19 13:32:40.302 - ApplicationConfig save successful: C:\Users\U S E R\Documents\ShareX\ApplicationConfig.json
+2021-11-19 13:32:57.796 - ShareX closing.
+2021-11-19 13:32:57.812 - ApplicationConfig save started: C:\Users\U S E R\Documents\ShareX\ApplicationConfig.json
+2021-11-19 13:32:58.133 - ApplicationConfig save successful: C:\Users\U S E R\Documents\ShareX\ApplicationConfig.json
+2021-11-19 13:32:58.133 - UploadersConfig save started: C:\Users\U S E R\Documents\ShareX\UploadersConfig.json
+2021-11-19 13:32:58.227 - UploadersConfig save successful: C:\Users\U S E R\Documents\ShareX\UploadersConfig.json
+2021-11-19 13:32:58.227 - HotkeysConfig save started: C:\Users\U S E R\Documents\ShareX\HotkeysConfig.json
+2021-11-19 13:32:58.383 - HotkeysConfig save successful: C:\Users\U S E R\Documents\ShareX\HotkeysConfig.json
+2021-11-19 13:32:58.383 - ShareX closed.

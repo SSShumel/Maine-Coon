@@ -1,0 +1,9 @@
+[2021.12.01 08:53:18] Launched version: 3002005, install beta: [FALSE], alpha: 0, debug mode: [FALSE]
+[2021.12.01 08:53:18] Executable dir: C:/Users/U S E R/AppData/Roaming/Telegram Desktop/, name: Telegram.exe
+[2021.12.01 08:53:18] Initial working dir: C:/Users/U S E R/AppData/Roaming/Telegram Desktop/
+[2021.12.01 08:53:18] Working dir: C:/Users/U S E R/AppData/Roaming/Telegram Desktop/
+[2021.12.01 08:53:18] Command line: C:\Users\U S E R\AppData\Roaming\Telegram Desktop\Telegram.exe
+[2021.12.01 08:53:18] Executable path before check: C:/Users/U S E R/AppData/Roaming/Telegram Desktop/Telegram.exe
+[2021.12.01 08:53:18] Logs started
+[2021.12.01 08:53:18] Connecting local socket to Global\323fe2d37d834c01f8faff3a1eb5f9aa-{87A94AB0-E370-4cde-98D3-ACC110C5967D}...
+[2021.12.01 08:53:18] This is the only instance of Telegram, starting server and app...

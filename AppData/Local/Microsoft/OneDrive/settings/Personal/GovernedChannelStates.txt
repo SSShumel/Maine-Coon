@@ -1,0 +1,1 @@
+{"ChannelStates":[{"ChannelType":0,"CooldownStartTimeUtc":"1601-01-01T00:00:00Z","Cooldown":1209600},{"ChannelType":1,"CooldownStartTimeUtc":"1601-01-01T00:00:00Z","Cooldown":0},{"ChannelType":2,"CooldownStartTimeUtc":"1601-01-01T00:00:00Z","Cooldown":1209600}]}

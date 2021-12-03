@@ -1,0 +1,8 @@
+05/26/2021 00:06:13.99	Information	DataMartConfig.json not found
+05/26/2021 00:06:14.06	Error	LPA creation failed with no modem found.
+05/26/2021 00:06:14.06	Error	Modem not found
+05/26/2021 00:06:14.07	Error	BackgroundTaskInitialize returned ModemNotFound
+05/26/2021 00:06:14.57	Error	HResult: -2147467261
+Message: Object reference not set to an instance of an object.
+StackTrace:    at BackgroundTaskComponent.PreInstallationTask.<Run>d__2.MoveNext() + 0x2bb
+

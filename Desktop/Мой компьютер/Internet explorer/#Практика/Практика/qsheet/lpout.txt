@@ -1,0 +1,85 @@
+Minimize LP
+  obj: 500.0 x1 + 500.0 x2 + 500.0 x3 + 500.0 x4 + 500.0 x5 + 500.0 x6 + 1000.0 x7 + 1000.0 x8 + 1000.0 x9 + 1000.0 x10 + 1000.0 x11 + 1000.0 x12 + 80.0 x13 + 80.0 x14 + 80.0 x15 + 80.0 x16 + 80.0 x17
+       + 80.0 x18
+Subject To
+  c1:   - x1 + x7 + x19 = 300.0
+  c2:   - x4 + x10 - x21 + x22 = 0.0
+  c3:   - x2 + x8 - x19 + x20 = 0.0
+  c4:   - x5 + x11 - x22 + x23 = 0.0
+  c5:   - x3 + x9 - x20 + x21 = 0.0
+  c6:   - x6 + x12 - x23 + x24 = 0.0
+  c7:   - x13 + x25 = 780.0
+  c8:  x15 - x16 + x28 = 1200.0
+  c9:  x13 - x14 + x26 = 640.0
+  c10:  x16 - x17 + x29 = 2000.0
+  c11:  x14 - x15 + x27 = 900.0
+  c12:  x17 - x18 + x30 = 1400.0
+  c13:   - 2.931 x19 + x25 = 0.0
+  c14:   - 3.81 x22 + x28 = 0.0
+  c15:   - 3.517 x20 + x26 = 0.0
+  c16:   - 3.224 x23 + x29 = 0.0
+  c17:   - 2.638 x21 + x27 = 0.0
+  c18:   - 2.198 x24 + x30 = 0.0
+  c19:  x19 >= 0.0
+  c20:  x20 >= 0.0
+  c21:  x21 >= 0.0
+  c22:  x22 >= 0.0
+  c23:  x23 >= 0.0
+  c24:  x24 >= 0.0
+  c25:  x25 >= 0.0
+  c26:  x26 >= 0.0
+  c27:  x27 >= 0.0
+  c28:  x28 >= 0.0
+  c29:  x29 >= 0.0
+  c30:  x30 >= 0.0
+  c31:  x13 >= 0.0
+  c32:  x14 >= 0.0
+  c33:  x15 >= 0.0
+  c34:  x16 >= 0.0
+  c35:  x17 >= 0.0
+  c36:  x18 >= 0.0
+  c37:  x7 >= 0.0
+  c38:  x8 >= 0.0
+  c39:  x9 >= 0.0
+  c40:  x10 >= 0.0
+  c41:  x11 >= 0.0
+  c42:  x12 >= 0.0
+  c43:  x1 >= 0.0
+  c44:  x2 >= 0.0
+  c45:  x3 >= 0.0
+  c46:  x4 >= 0.0
+  c47:  x5 >= 0.0
+  c48:  x6 >= 0.0
+  c49:  x18 = 600.0
+Bounds
+  -infinity <= x1 <= +infinity
+  -infinity <= x2 <= +infinity
+  -infinity <= x3 <= +infinity
+  -infinity <= x4 <= +infinity
+  -infinity <= x5 <= +infinity
+  -infinity <= x6 <= +infinity
+  -infinity <= x7 <= +infinity
+  -infinity <= x8 <= +infinity
+  -infinity <= x9 <= +infinity
+  -infinity <= x10 <= +infinity
+  -infinity <= x11 <= +infinity
+  -infinity <= x12 <= +infinity
+  -infinity <= x13 <= +infinity
+  -infinity <= x14 <= +infinity
+  -infinity <= x15 <= +infinity
+  -infinity <= x16 <= +infinity
+  -infinity <= x17 <= +infinity
+  -infinity <= x18 <= +infinity
+  -infinity <= x19 <= +infinity
+  -infinity <= x20 <= +infinity
+  -infinity <= x21 <= +infinity
+  -infinity <= x22 <= +infinity
+  -infinity <= x23 <= +infinity
+  -infinity <= x24 <= +infinity
+  -infinity <= x25 <= +infinity
+  -infinity <= x26 <= +infinity
+  -infinity <= x27 <= +infinity
+  -infinity <= x28 <= +infinity
+  -infinity <= x29 <= +infinity
+  -infinity <= x30 <= +infinity
+End

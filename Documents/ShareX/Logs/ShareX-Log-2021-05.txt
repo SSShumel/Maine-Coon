@@ -1,0 +1,84 @@
+﻿2021-05-19 10:56:44.566 - ShareX starting.
+2021-05-19 10:56:44.590 - Version: 13.4
+2021-05-19 10:56:44.591 - Build: Steam
+2021-05-19 10:56:44.591 - Command line: "C:\Program Files (x86)\Steam\steamapps\common\ShareX\ShareX\ShareX.exe"
+2021-05-19 10:56:44.591 - Personal path: C:\Users\U S E R\Documents\ShareX
+2021-05-19 10:56:44.598 - Operating system: Windows 10 Home (64-bit)
+2021-05-19 10:56:44.599 - Running as elevated process: False
+2021-05-19 10:56:44.678 - ApplicationConfig load started: C:\Users\U S E R\Documents\ShareX\ApplicationConfig.json
+2021-05-19 10:56:45.596 - ApplicationConfig load finished: C:\Users\U S E R\Documents\ShareX\ApplicationConfig.json
+2021-05-19 10:56:45.604 - UploadersConfig load started: C:\Users\U S E R\Documents\ShareX\UploadersConfig.json
+2021-05-19 10:56:45.604 - MainForm init started.
+2021-05-19 10:56:45.848 - UploadersConfig load finished: C:\Users\U S E R\Documents\ShareX\UploadersConfig.json
+2021-05-19 10:56:45.854 - HotkeysConfig load started: C:\Users\U S E R\Documents\ShareX\HotkeysConfig.json
+2021-05-19 10:56:46.175 - HotkeysConfig load finished: C:\Users\U S E R\Documents\ShareX\HotkeysConfig.json
+2021-05-19 10:56:46.682 - MainForm init finished.
+2021-05-19 10:56:46.844 - Exception:
+System.Net.WebException: Невозможно разрешить удаленное имя: 'getsharex.com'
+   в System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   в System.Net.WebClient.DownloadString(Uri address)
+   в ShareX.NewsManager.GetNews()
+   в ShareX.NewsManager.UpdateNews()
+2021-05-19 10:56:47.511 - Startup time: 3047 ms
+2021-05-19 10:56:47.649 - Hotkey registered: Hotkey: Ctrl + Print Screen, Description: Захват области, Job: RectangleRegion
+2021-05-19 10:56:47.649 - Hotkey registered: Hotkey: Print Screen, Description: Захват всего экрана, Job: PrintScreen
+2021-05-19 10:56:47.649 - Hotkey registered: Hotkey: Alt + Print Screen, Description: Захват активного окна, Job: ActiveWindow
+2021-05-19 10:56:47.649 - Hotkey registered: Hotkey: Shift + Print Screen, Description: Начать/Остановить запись области экрана, Job: ScreenRecorder
+2021-05-19 10:56:47.650 - Hotkey registered: Hotkey: Ctrl + Shift + Print Screen, Description: Начать/Остановить запись области экрана (GIF), Job: ScreenRecorderGIF
+2021-05-19 10:56:47.656 - HotkeyManager started.
+2021-05-19 10:56:47.659 - WatchFolderManager started.
+2021-05-19 10:57:04.480 - Hotkey triggered. Hotkey: Ctrl + Print Screen, Description: Захват области, Job: RectangleRegion
+2021-05-19 10:57:04.484 - Executing: Захват области
+2021-05-19 10:57:07.943 - Task in queue. Job: Job, Type: Image, Host: Imgur
+2021-05-19 10:57:08.105 - Task status: Preparing
+2021-05-19 10:57:08.160 - Image copied to clipboard.
+2021-05-19 10:57:08.187 - Image saved to file: C:\Users\U S E R\Documents\ShareX\Screenshots\2021-05\Project2_s3WMxhR2R5.png
+2021-05-19 10:57:08.215 - Upload started. Filename: Project2_s3WMxhR2R5.png, Filepath: C:\Users\U S E R\Documents\ShareX\Screenshots\2021-05\Project2_s3WMxhR2R5.png
+2021-05-19 10:57:08.266 - Error:
+Error message:
+Невозможно разрешить удаленное имя: 'api.imgur.com'
+
+Request URL:
+https://api.imgur.com/3/upload
+
+Stack trace:
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в ShareX.UploadersLib.Uploader.SendRequestFile(String url, Stream data, String fileName, String fileFormName, Dictionary`2 args, NameValueCollection headers, CookieCollection cookies, HttpMethod method, String contentType, String relatedData)
+2021-05-19 10:57:08.267 - Upload failed. Retrying upload.
+2021-05-19 10:57:09.277 - Error:
+Error message:
+Невозможно разрешить удаленное имя: 'api.imgur.com'
+
+Request URL:
+https://api.imgur.com/3/upload
+
+Stack trace:
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в ShareX.UploadersLib.Uploader.SendRequestFile(String url, Stream data, String fileName, String fileFormName, Dictionary`2 args, NameValueCollection headers, CookieCollection cookies, HttpMethod method, String contentType, String relatedData)
+2021-05-19 10:57:09.285 - Task failed. Filename: Project2_s3WMxhR2R5.png, Errors:
+Error message:
+Невозможно разрешить удаленное имя: 'api.imgur.com'
+
+Request URL:
+https://api.imgur.com/3/upload
+
+Stack trace:
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в ShareX.UploadersLib.Uploader.SendRequestFile(String url, Stream data, String fileName, String fileFormName, Dictionary`2 args, NameValueCollection headers, CookieCollection cookies, HttpMethod method, String contentType, String relatedData)
+2021-05-19 12:00:26.675 - ApplicationConfig save started: C:\Users\U S E R\Documents\ShareX\ApplicationConfig.json
+2021-05-19 12:00:26.675 - UploadersConfig save started: C:\Users\U S E R\Documents\ShareX\UploadersConfig.json
+2021-05-19 12:00:26.675 - HotkeysConfig save started: C:\Users\U S E R\Documents\ShareX\HotkeysConfig.json
+2021-05-19 12:00:26.895 - UploadersConfig save successful: C:\Users\U S E R\Documents\ShareX\UploadersConfig.json
+2021-05-19 12:00:26.989 - HotkeysConfig save successful: C:\Users\U S E R\Documents\ShareX\HotkeysConfig.json
+2021-05-19 12:00:27.036 - ApplicationConfig save successful: C:\Users\U S E R\Documents\ShareX\ApplicationConfig.json
+2021-05-19 12:00:30.540 - ShareX closing.
+2021-05-19 12:00:30.540 - ApplicationConfig save started: C:\Users\U S E R\Documents\ShareX\ApplicationConfig.json
+2021-05-19 12:00:30.852 - ApplicationConfig save successful: C:\Users\U S E R\Documents\ShareX\ApplicationConfig.json
+2021-05-19 12:00:30.852 - UploadersConfig save started: C:\Users\U S E R\Documents\ShareX\UploadersConfig.json
+2021-05-19 12:00:30.946 - UploadersConfig save successful: C:\Users\U S E R\Documents\ShareX\UploadersConfig.json
+2021-05-19 12:00:30.962 - HotkeysConfig save started: C:\Users\U S E R\Documents\ShareX\HotkeysConfig.json
+2021-05-19 12:00:31.165 - HotkeysConfig save successful: C:\Users\U S E R\Documents\ShareX\HotkeysConfig.json
+2021-05-19 12:00:31.165 - ShareX closed.

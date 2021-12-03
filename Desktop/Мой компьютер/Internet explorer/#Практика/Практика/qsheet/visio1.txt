@@ -1,0 +1,146 @@
+'This VBScript code is used to control the VISIO object
+'in the scripting example discussed in the file VISIO1.MCD.
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+Sub VisioPageObjEvent_Start()
+    'Set the Source property of VBScript's built-in error object Err,
+    'in case an error is encountered.
+    Err.Source = "VISIO Scripted Object Inside Mathcad"
+End Sub
+
+'Total number of objects of interest on the diagram.
+'(Objects such as grid lines and coordinate labels are not interesting.)
+Dim ObjectsTotal
+ObjectsTotal = 4
+
+Sub VisioPageObjEvent_Exec(Inputs,Outputs)
+
+  'Get the next command
+  Set Command = Inputs(0)
+
+  'Each command is an array whose first element determines the action
+  'to be taken: 0 to move, 1 to connect, and 2 to disconnect.
+  MOVE = 0
+  CONNECT = 1
+  DISCONNECT = 2
+
+  If (Command.Value(0,0) = MOVE) Then			'MOVE statement
+
+     ObjIndex = Command.Value(1,0)
+
+     If ObjIndex > ObjectsTotal Then
+         InvalidObjectError
+     End If
+
+     toX      = Command.Value(2,0)
+     toY      = Command.Value(3,0)
+
+     Set cellX = Shapes.Item(ObjIndex).Cells("PinX")
+     cellX.ResultIU = toX
+     Set cellY = Shapes.Item(ObjIndex).Cells("PinY")
+     cellY.ResultIU = toY
+
+  ElseIf (Command.Value(0,0) = CONNECT) Then		'CONNECT statement
+
+     objIndex1 = Command.Value(1,0)
+     objIndex2 = Command.Value(2,0)
+
+     If (ObjIndex1 > ObjectsTotal) Or (ObjIndex2 > ObjectsTotal) Then
+         InvalidObjectError
+     End If
+
+     'Glue the control handle "Control.X1" of the first object
+     'to the center "Connections.X2" of the second object.
+     Set cellObj1 = Shapes.Item(ObjIndex1).Cells("Controls.X1")
+     Set cellObj2 = Shapes.Item(ObjIndex2).Cells("Connections.X2")
+     cellObj1.GlueTo cellObj2
+
+  ElseIf (Command.Value(0,0) = DISCONNECT) Then		'DISCONNECT statement
+
+     objIndex1 = Command.Value(1,0)
+     objIndex2 = Command.Value(2,0)
+
+     If (ObjIndex1 > ObjectsTotal) Or (ObjIndex2 > ObjectsTotal) Then
+         InvalidObjectError
+     End If
+
+     'First we need to determine whether shape1 is connected
+     'to shape2 or vice versa or both. The DISCONNECT operation
+     'will remove the existing connections in either (or both) direction(s).
+
+     OneConnectsToTwo = False
+     TwoConnectsToOne = False
+
+     Set shpObj1 = Shapes.Item(ObjIndex1)
+     Set shpObj2 = Shapes.Item(ObjIndex2)
+
+     Set consObj1 = shpObj1.Connects
+     Set consObj2 = shpObj1.Connects
+
+     For i = 1 To consObj1.Count
+       Set conObj = consObj1(i)
+       Set toObj = conObj.ToSheet
+       If (toObj Is shpObj2) Then OneConnectsToTwo = True
+     Next
+
+     For i = 1 To consObj2.Count
+       Set conObj = consObj2(i)
+       Set toObj = conObj.ToSheet
+       If (toObj Is shpObj1) Then TwoConnectsToOne = True
+     Next
+
+     'To un-glue a shape from another shape, we simply move
+     'the shape's control handle to the center of the shape.
+
+     If OneConnectsToTwo Then
+        Set cellObj = Shapes.Item(ObjIndex1).Cells("Controls.X1")
+        cellObj.ResultIU = Shapes.Item(ObjIndex1).Cells("LocPinX")
+        Set cellObj = Shapes.Item(ObjIndex1).Cells("Controls.Y1")
+        cellObj.ResultIU = Shapes.Item(ObjIndex1).Cells("LocPinY")
+     End If
+ 
+     If TwoConnectsToOne Then
+        Set cellObj = Shapes.Item(ObjIndex2).Cells("Controls.X1")
+        cellObj.ResultIU = Shapes.Item(ObjIndex2).Cells("LocPinX")
+        Set cellObj = Shapes.Item(ObjIndex2).Cells("Controls.Y1")
+        cellObj.ResultIU = Shapes.Item(ObjIndex2).Cells("LocPinY")
+     End If
+
+  Else
+
+     'If the command action is neither MOVE (0) nor CONNECT (1)
+     'nor DISCONNECT (2), use the VBScript built-in Err object
+     'to raise an error.
+
+     InvalidCommandError
+
+  End If
+
+  'Finally, let us query each shape about its current (x,y) coordinates.
+  'The 2D array containing (x,y) coordinates for each shape is then passed
+  'to the component's output (and read into a Mathcad variable).
+  For i = 1 to ObjectsTotal
+     Outputs(0).Value(i-1,0) = Shapes.Item(i).Cells("PinX").ResultIU
+     Outputs(0).Value(i-1,1) = Shapes.Item(i).Cells("PinY").ResultIU
+  Next
+
+End Sub
+
+Sub VisioPageObjEvent_Stop()
+  REM TODO: Add your code here
+End Sub
+
+'ERROR PROCESSING PROCEDURES
+'Error numbers from 0 to vbObjectError are reserved by VBScript;
+'user-defined errors can start after that.
+'User error numbers 14 and 15 are chosen for this script.
+
+Sub InvalidObjectError
+  Err.Description = "Invalid object. The object's index cannot exceed " & ObjectsTotal & "."
+  Err.Raise(vbObjectError + 14)
+End Sub
+
+Sub InvalidCommandError
+  Err.Description = "Unrecognized command. Only know how to MOVE (0), CONNECT (1), and DISCONNECT (2)." & Chr(10) & "If you want to use other commands, you have to define them before you can use them."
+  Err.Raise(vbObjectError + 15)
+End Sub
