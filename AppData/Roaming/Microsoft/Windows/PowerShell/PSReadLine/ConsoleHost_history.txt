@@ -26,3 +26,144 @@ pip3 install numpy
  c:; cd 'c:\Users\U S E R\Downloads'; & 'C:\Users\U S E R\AppData\Local\Microsoft\WindowsApps\python3.9.exe' 'c:\Users\U S E R\.vscode\extensions\ms-python.python-2021.10.1365161279\pythonFiles\lib\python\debugpy\launcher' '63490' '--' 'c:\Users\U S E R\Downloads\5 (1).py' 
  c:; cd 'c:\Users\U S E R\Downloads'; & 'C:\Users\U S E R\AppData\Local\Microsoft\WindowsApps\python3.9.exe' 'c:\Users\U S E R\.vscode\extensions\ms-python.python-2021.10.1365161279\pythonFiles\lib\python\debugpy\launcher' '63503' '--' 'c:\Users\U S E R\Downloads\3 (1).py' 
  c:; cd 'c:\Users\U S E R\Downloads'; & 'C:\Users\U S E R\AppData\Local\Microsoft\WindowsApps\python3.9.exe' 'c:\Users\U S E R\.vscode\extensions\ms-python.python-2021.10.1365161279\pythonFiles\lib\python\debugpy\launcher' '56706' '--' 'c:\Users\U S E R\Downloads\4 (1).py' 
+ & 'C:\Users\U S E R\AppData\Local\Microsoft\WindowsApps\python3.9.exe' 'c:\Users\U S E R\.vscode\extensions\ms-python.python-2021.11.1422169775\pythonFiles\lib\python\debugpy\launcher' '65065' '--' 'c:\Users\USER~1\AppData\Local\Temp\Rar$DIa22064.15968\manage.py' 
+ & 'C:\Users\U S E R\AppData\Local\Microsoft\WindowsApps\python3.9.exe' 'c:\Users\U S E R\.vscode\extensions\ms-python.python-2021.11.1422169775\pythonFiles\lib\python\debugpy\launcher' '53997' '--' 'c:\Users\USER~1\AppData\Local\Temp\Rar$DIa10004.612\manage.py' 
+ c:; cd 'c:\Users\USER~1\AppData\Local\Temp\Rar$DIa10004.612'; & 'C:\Users\U S E R\AppData\Local\Microsoft\WindowsApps\python3.9.exe' 'c:\Users\U S E R\.vscode\extensions\ms-python.python-2021.11.1422169775\pythonFiles\lib\python\debugpy\launcher' '55866' '--' 'c:\Users\USER~1\AppData\Local\Temp\Rar$DIa10004.612\manage.py' 
+npm install --global yarn
+yarn
+npm install -g npm@8.2.0
+yarn
+npm install --global yarn
+yarn
+Set-ExecutionPolicy RemoteSigned
+yarn
+yarn mock
+yarn start
+yarn mock
+yarn start
+yarn mock
+yarn start
+yarn mock
+yarn start
+yarn mock
+yarn start
+yarn mock
+yarn start
+yarn mock
+yarn start
+yarn mock
+yarn start
+yarn mock
+yarn start
+yarn mock
+yarn start
+yarn mock
+yarn start
+yarn mock
+cd client
+cd api
+cd socket
+yarn
+yarn
+yarn
+yarn start
+yarn start
+yarn start
+yarn start
+yarn
+yarn mock
+yarn start
+npm install
+npm run dev
+npm run dev.
+yarn
+yarn start
+yarn dev
+npm run dev
+--stats-children
+npm
+npm dev
+npm run dev
+yarn mock
+yarn start
+yarn start
+-stats-children
+stats-children
+yarn
+npm run dev
+npm start
+npm run dev
+yarn mock
+yarn start
+yarn mock
+yarn mock
+yarn start
+yarn mock
+yarn start
+node -v //returns your node version, if installed
+npm -v  //returns your npm version, if installednode -v //returns your node version, if installed
+cd ts
+npm install
+npm run build
+npm -v
+node -v 
+nvm
+nvm install
+nvm 
+node -v 
+nvm -v
+node -v
+node install
+node
+./node
+node
+node install
+node
+npm install
+node -v
+npm istall
+node
+npm install
+npm run dev
+nmp run start
+npm run start
+npm run dev
+npm run start
+npm run dev
+npm run start
+npm run dev
+npm run start
+npm run dev
+npm run start
+npm run dev
+npm run start 
+npm run dev
+npm run start
+npm run dev
+npm run start
+npm run dev
+npm run start
+npm run dev 
+npm run start
+npm run dev
+npm run start
+npm run dev
+npm run start
+npm run dev 
+npm run start
+npm run dev
+npm run start
+npm run dev
+npm run start
+npm run dev
+npm run start
+npm run dev
+npm run start
+npm run dev
+npm run start
+npm run dev
+npm run start
+npm run dev
+npm run start
+npm run dev
+npm run start

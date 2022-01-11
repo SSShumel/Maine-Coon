@@ -1,9 +1,0 @@
-**********RECORD OF SUCCUSSFULLY PROCESSED FILES*********
-
-E:\MathCad9\Pro\qsheet\map.mcd
-E:\MathCad9\Pro\qsheet\welcome.mcd
-E:\MathCad9\Pro\qsheet\new.mcd
-E:\MathCad9\Pro\qsheet\new1a.mcd
-E:\MathCad9\Pro\qsheet\new2a.mcd
-E:\MathCad9\Pro\qsheet\new3a.mcd
-E:\MathCad9\Pro\qsheet\new4a.mcd
